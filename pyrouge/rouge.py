@@ -1,7 +1,5 @@
 import codecs
-from collections import defaultdict
 import shutil
-import pandas as pd
 import logging
 from os import mkdir
 import os
@@ -10,7 +8,7 @@ from subprocess import check_output, CalledProcessError
 from tempfile import mkdtemp
 import sys
 
-from pyrouge.base import ROUGE_EVAL_HOME, Doc
+from pyrouge.pyrouge.base import ROUGE_EVAL_HOME, Doc
 
 
 class Rouge155(object):
