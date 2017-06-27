@@ -34,3 +34,5 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+tools/ROUGE-1\.5\.5/data/WordNet-2\.0\.exc\.db
